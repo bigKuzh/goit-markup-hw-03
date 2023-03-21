@@ -24,6 +24,10 @@ address {
    font-style: normal;
 }
 
+img {
+   display: block;
+}
+
 
 body {
    font-family: "Roboto", sans-serif;
@@ -50,6 +54,7 @@ body {
 /* -------------------------Header------------------------- */
 .header {
    background-color: var(--accent-color);
+   padding-top: 24px;
 }
 .header-navigation {
 
@@ -120,6 +125,7 @@ color: var(--main-title-color);
    text-align: center;
    letter-spacing: 0.02em;
    color: var(--accent-color);
+   margin-bottom: 48px;
 }
 
 .hero-btn {
@@ -141,6 +147,8 @@ cursor: pointer;
 /* -------------------------------About US------------------------------- */
 .about {
    background-color: var(--accent-color);
+   padding-top: 120px;
+   padding-bottom: 120px;
 }
 
 .about-title {
@@ -161,6 +169,10 @@ cursor: pointer;
    color: var(--main-text-color);
 }
 /* -------------------------------Project------------------------------- */
+
+.projects {
+   margin-bottom: 120px;
+}
 
 .projects-title {
 font-size: 36px;

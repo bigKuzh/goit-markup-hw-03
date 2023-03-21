@@ -1,6 +1,3 @@
-html{
-   box-sizing: border-box;
-}
 :root {
    --main-title-color: #2E2F42;
    --accent-color: #FFFFFF;
@@ -12,22 +9,21 @@ html{
 
 p,h1,h2,h3,h4,h5,h6 {
    margin: 0;
-   padding: 0;
 }
 
 ul {
-   list-style: none;
    padding-left: 0;
    margin: 0;
 }
 
-a {
-   text-decoration: none;
-}
-
 button {
    cursor: pointer;
+} 
+
+address {
+   font-style: normal;
 }
+
 
 body {
    font-family: "Roboto", sans-serif;
@@ -44,14 +40,11 @@ body {
 }
 
 .container {
-   background-color: tomato;
-   width: 1128px;
-   margin-left: auto;
-   margin-right: auto;
-
-
-
-
+   width: 1158px;
+   padding-left: 15px;
+   padding-right: 15px;
+   margin: 0 auto;
+   outline: solid 2px red;
 }
 
 /* -------------------------Header------------------------- */

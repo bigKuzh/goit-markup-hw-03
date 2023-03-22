@@ -52,13 +52,23 @@ body {
 }
 
 /* -------------------------Header------------------------- */
+
+
 .header {
    background-color: var(--accent-color);
    padding-top: 24px;
 }
-.header-navigation {
 
+.main-wrap {
+   display: flex;
+   flex-wrap: wrap;
 }
+
+.header-navigation {
+display: flex;
+align-items: center;
+}
+
 .header-logo {
 font-family: "Raleway", sans-serif;
 font-weight: 800;
@@ -75,10 +85,22 @@ color: var(--main-title-color);
    text-decoration: none;
 }
 
-.header-item {
-
+.header-list {
+   display: flex;
 }
+
+/* .header-item {
+
+} */
+.header-item + .header-item {
+   margin-left: 40px;
+}
+
 .header-link {
+display: block;
+padding-top: 24px;
+padding-bottom: 24px;
+
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -91,6 +113,14 @@ color: var(--main-title-color);
 }
 .header-address{ 
    font-style: normal; 
+}
+
+.address-list {
+   display: flex;
+}
+
+.address-item + .address-item{
+   margin-left: 40px;
 }
 
 .header-mail:is(:hover, :focus) {
@@ -151,9 +181,9 @@ cursor: pointer;
    padding-bottom: 120px;
 }
 
-.about-title {
+/* .about-title {
 
-}
+} */
 .about-title {
    font-weight: 500;
    font-size: 20px;
@@ -183,14 +213,18 @@ text-transform: capitalize;
 color: var(--main-title-color);
 }
 
-.projects-item {
+/* .projects-item {
 
-}
+} */
 
 /* --------------------------------Our Team-------------------------------- */
 
 .team {
    background-color: var(--footer-white);
+}
+
+.team-list {
+   padding-bottom: 120px;
 }
 
 .team-item {

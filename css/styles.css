@@ -171,7 +171,7 @@ cursor: pointer;
 /* -------------------------------Project------------------------------- */
 
 .projects {
-   margin-bottom: 120px;
+   padding-bottom: 120px;
 }
 
 .projects-title {
@@ -191,6 +191,7 @@ color: var(--main-title-color);
 
 .team {
    background-color: var(--footer-white);
+   padding-bottom: 120px;
 }
 
 .team-item {
@@ -227,6 +228,8 @@ color: var(--main-text-color);
 
 .footer {
    background-color: var(--main-title-color);
+   padding-top: 100px;
+   padding-bottom: 100px;
 }
 
 .footer-logo-blue {

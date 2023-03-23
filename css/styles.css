@@ -186,18 +186,39 @@ margin-bottom: 188px;
    padding-bottom: 120px;
 }
 
-/* .about-title {
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
 
-} */
+.about-list {
+   display: flex;
+   gap: 24px;
+
+}
+
+.about-item {
+}
+
 .about-title {
    font-weight: 500;
    font-size: 20px;
    line-height: 1.2;
    letter-spacing: 0.02em;
    color: var(--main-title-color);
+   margin-bottom: 8px;
 }
 
 .about-text {
+   min-width: 264px;
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
@@ -206,7 +227,12 @@ margin-bottom: 188px;
 /* -------------------------------Project------------------------------- */
 
 .projects {
-   margin-bottom: 120px;
+   padding-bottom: 120px;
+}
+
+.projects-list{
+   display: flex;
+   gap: 24px;
 }
 
 .projects-title {
@@ -216,11 +242,8 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--main-title-color);
+margin-bottom: 72px;
 }
-
-/* .projects-item {
-
-} */
 
 /* --------------------------------Our Team-------------------------------- */
 

@@ -137,15 +137,26 @@ color: var(--main-title-color);
 /* ---------------------------------Hero--------------------------------- */
 .hero {
    background-color: var(--main-title-color);
+
+}
+
+.hero-wrap {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 48px;
 }
 
 .hero-title {
+   max-width: 496px;
    font-size: 56px;
    line-height: 1.07;
    text-align: center;
    letter-spacing: 0.02em;
    color: var(--accent-color);
-   margin-bottom: 48px;
+   padding-top: 188px;
+
 }
 
 .hero-btn {
@@ -162,6 +173,7 @@ letter-spacing: 0.04em;
 color: var(--accent-color);
 background-color: var(--main-logo-color);
 cursor: pointer;
+margin-bottom: 188px;
 }
 
 .hero-btn:is(:hover, :focus) {

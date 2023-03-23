@@ -165,6 +165,11 @@ color: var(--main-title-color);
 }
 
 .hero-btn {
+padding: 16px 32px;
+border-radius: 4px;
+
+min-width: 169px;
+height: 56px;
 font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
@@ -175,8 +180,6 @@ letter-spacing: 0.04em;
 color: var(--accent-color);
 background-color: var(--main-logo-color);
 cursor: pointer;
-padding: 16px 32px;
-border-radius: 4px;
 }
 
 .hero-btn:is(:hover, :focus) {

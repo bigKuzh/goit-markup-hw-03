@@ -53,22 +53,19 @@ body {
 
 /* -------------------------Header------------------------- */
 
-
 .header {
    background-color: var(--accent-color);
    padding-top: 24px;
 }
-
-.main-wrap {
+.main-wrap { 
    display: flex;
-   flex-wrap: wrap;
+   align-items: center;
 }
-
 .header-navigation {
 display: flex;
 align-items: center;
+margin-right: auto;
 }
-
 .header-logo {
 font-family: "Raleway", sans-serif;
 font-weight: 800;
@@ -82,20 +79,15 @@ color: var(--main-logo-color);
 color: var(--main-title-color);
 }
 .header-logo .link {
-   text-decoration: none;
+text-decoration: none;
 }
-
 .header-list {
    display: flex;
+   margin-left: 76px;
 }
-
-/* .header-item {
-
-} */
 .header-item + .header-item {
    margin-left: 40px;
 }
-
 .header-link {
 display: block;
 padding-top: 24px;
@@ -107,24 +99,17 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--main-title-color);
 }
-
 .header-link:is(:hover, :focus) {
    color: var(--select-color);
 }
 .header-address{ 
    font-style: normal; 
 }
-
 .address-list {
    display: flex;
 }
-
 .address-item + .address-item{
    margin-left: 40px;
-}
-
-.header-mail:is(:hover, :focus) {
-   color: var(--select-color);
 }
 .header-mail{
    font-family: "Roboto", sans-serif;
@@ -132,6 +117,9 @@ color: var(--main-title-color);
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: var(--main-text-color);
+}
+.header-mail:is(:hover, :focus) {
+   color: var(--select-color);
 }
 .header-phone:is(:hover, :focus) {
    color: var(--select-color);
@@ -163,8 +151,6 @@ font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-display: flex;
-align-items: center;
 letter-spacing: 0.04em;
 color: var(--accent-color);
 background-color: var(--main-logo-color);
@@ -275,8 +261,6 @@ font-family: "Raleway", sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
-display: flex;
-align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--main-logo-color)
@@ -298,8 +282,6 @@ color: var(--footer-white);
    font-weight: 500;
    font-size: 16px;
    line-height: 1.5;
-   display: flex;
-   align-items: center;
    text-align: center;
    letter-spacing: 0.04em;
    color: var(--main-logo-color);

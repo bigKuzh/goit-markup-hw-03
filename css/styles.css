@@ -74,6 +74,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--main-logo-color);
+margin-right: 76px;
 }
 .logo-blue{
 color: var(--main-title-color);
@@ -108,6 +109,7 @@ color: var(--main-title-color);
 .address-list {
    display: flex;
 }
+
 .address-item + .address-item{
    margin-left: 40px;
 }
@@ -147,6 +149,11 @@ color: var(--main-title-color);
 }
 
 .hero-btn {
+padding: 16px 32px;
+border-radius: 4px;
+
+min-width: 169px;
+height: 56px;
 font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;

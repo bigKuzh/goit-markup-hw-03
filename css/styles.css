@@ -51,6 +51,10 @@ body {
    outline: solid 2px red;
 }
 
+section {
+   outline: solid 2px red;
+}
+
 /* -------------------------Header------------------------- */
 
 .header {
@@ -249,14 +253,45 @@ margin-bottom: 72px;
 
 .team {
    background-color: var(--footer-white);
+   padding-bottom: 72px;
+   padding-top: 120px;
 }
 
 .team-list {
-   padding-bottom: 120px;
+display: flex;
+gap: 24px;
 }
+
+
+.card-content {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+}
+.member-social-list {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 24px;
+}
+
 
 .team-item {
    background-color: var(--accent-color);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 0px 0px 32px;
+   gap: 32px;
+
+width: 264px;
+height: 428px;
 }
 
 .team-title {
@@ -266,6 +301,8 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--main-title-color);
+margin-bottom: 72px;
+
 }
 
 .team-member-title {
@@ -275,6 +312,7 @@ line-height: 1.2;
 text-align: center;
 letter-spacing: 0.02em;
 color: var(--main-title-color);
+
 }
 
 .team-text {

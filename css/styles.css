@@ -54,7 +54,7 @@ body {
 
 .header {
    background-color: var(--accent-color);
-   padding-top: 24px;
+   border-bottom: 1px solid #E7E9FC;
 }
 .main-wrap { 
    display: flex;
@@ -65,7 +65,7 @@ body {
 display: flex;
 align-items: center;
 margin-right: auto;
-   margin: 0;
+
 }
 .header-logo {
 font-family: "Raleway", sans-serif;
@@ -85,7 +85,7 @@ text-decoration: none;
 }
 .header-list {
    display: flex;
-   margin-left: 76px;
+
 
 }
 .header-item + .header-item {
@@ -107,7 +107,9 @@ color: var(--main-title-color);
 }
 .header-address{ 
    font-style: normal; 
+
 }
+
 .address-list {
    display: flex;
 }
@@ -140,6 +142,7 @@ color: var(--main-title-color);
 .hero {
    background-color: var(--main-title-color);
 
+
 }
 
 .hero-wrap {
@@ -148,16 +151,16 @@ color: var(--main-title-color);
    justify-content: center;
    align-items: center;
    gap: 48px;
+   padding: 188px 472px 188px 472px;
 }
 
 .hero-title {
-   max-width: 496px;
+   min-width: 496px;
    font-size: 56px;
    line-height: 1.07;
    text-align: center;
    letter-spacing: 0.02em;
    color: var(--accent-color);
-   padding-top: 188px;
 
 }
 
@@ -175,7 +178,6 @@ letter-spacing: 0.04em;
 color: var(--accent-color);
 background-color: var(--main-logo-color);
 cursor: pointer;
-margin-bottom: 188px;
 }
 
 .hero-btn:is(:hover, :focus) {
@@ -251,7 +253,7 @@ margin-bottom: 72px;
 
 .team {
    background-color: var(--footer-white);
-   padding-bottom: 72px;
+   padding-bottom: 120px;
    padding-top: 120px;
 }
 
@@ -289,7 +291,7 @@ gap: 24px;
    gap: 32px;
 
 width: 264px;
-height: 428px;
+height: 380px;
 }
 
 .team-title {
@@ -392,8 +394,9 @@ margin-top: 16px;
    flex-direction: column;
    justify-content: center;
    align-items: flex-start;
-   padding: 0px 16px;
+   padding: 32px 16px;
    gap: 8px;
+   border: 1px solid #E7E9FC;
 }
 
 .products-list {
@@ -402,7 +405,6 @@ margin-top: 16px;
    justify-content: center;
    gap: 48px 24px;
    padding-bottom: 120px;
-   
 
 }
 
@@ -415,10 +417,13 @@ margin-top: 16px;
 }
 
 .products-text {
-   font-weight: 400;
+font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--main-text-color);
 }
 
+.products-item {
+
+}

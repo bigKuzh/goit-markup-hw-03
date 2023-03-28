@@ -383,8 +383,7 @@ margin-top: 16px;
    display: flex;
    justify-content: center;
    gap: 24px;
-   padding-top: 96px;
-   padding-bottom: 72px;
+   margin-bottom: 72px;
 }
 
 /* ---------------------------Our products--------------------------- */
@@ -399,9 +398,6 @@ margin-top: 16px;
    border: 1px solid #E7E9FC;
 }
 
-.product-wrap {
-   padding-bottom: 120px;
-}
 
 .products-list {
    display: flex;
@@ -428,6 +424,10 @@ letter-spacing: 0.02em;
 color: var(--main-text-color);
 }
 
-.products-item {
+.portfolio {
+   padding-top: 96px;
+   padding-bottom: 120px;
+}
 
+.portfolio-wrap {
 }
